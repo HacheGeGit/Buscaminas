@@ -47,7 +47,7 @@ public class Logica implements View.OnLongClickListener, View.OnClickListener{
     public Logica(Context context, GridLayout tablero, TextView mostrarNumFlags){
         this.context = context;
         this.tablero = tablero;
-        this. mostrarNumFlags = mostrarNumFlags;
+        this.mostrarNumFlags = mostrarNumFlags;
     }
 
     // Método que reincia la partida actual sin generar una nueva lista de minas.
