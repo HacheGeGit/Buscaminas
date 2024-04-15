@@ -51,7 +51,7 @@ public class Logica implements View.OnLongClickListener, View.OnClickListener{
     }
 
     // Método que reincia la partida actual sin generar una nueva lista de minas.
-    // Esta pensado para gente que quiera reintentar el tablero de nuevo sin cambiar
+    // Está pensado para gente que quiera reintentar el tablero de nuevo sin cambiar
     // la posición de las minas.
     public void reiniciar(){
         dificultad();
